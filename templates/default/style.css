@@ -1,13 +1,13 @@
 /* GLOBAL STYLES */
 body, body *{margin:0;padding:0;border:0;}
-body,table{color:rgb(110, 190, 255);font-size:0.75em;font-family:Verdana, Arial, sans-serif;}
+body,table{color: black;font-size:0.75em;font-family:Verdana, Arial, sans-serif;}
 
 body{padding:0; text-align:center;}
 
 .input, select, textarea{padding:2px;border-width:1px;border-style:solid;border-color:#6c6c6c #cccccc #cccccc #6c6c6c;font-size:1em;font-family:Verdana;text-shadow:1px 1px #e0e0e0;}
 .input.warning-required, select.warning-required, textarea.warning-required{border-color:#ac0000 #c78688 #c78688 #ac0000;background:#fbefef;}
 .input:focus, select:focus, .textarea:focus{text-shadow:none;}
-.submit{padding:5px 14px;border-width:1px;border-style:solid;border-color:#9d9d9d #3f3f3f #3f3f3f #9d9d9d;background:#154a72;color:#fff;font-weight:bold;font-size:1em;font-family:Verdana;text-shadow:1px 1px #17344b;}
+.submit{padding:5px 1px;border-width:1px;border-style:solid;border-color:#9d9d9d #3f3f3f #3f3f3f #9d9d9d;background:#154a72;color:#fff;font-weight:bold;font-size:1em;font-family:Verdana;text-shadow:1px 1px #17344b;}
 .submit:hover{background:#c22463;cursor:pointer;text-shadow:1px 1px #630d2f;}
 * html .submit{padding:3px 1px;} /* IE 6 hack */
 * html .input{height:21px;} /* IE 6 hack */
@@ -26,45 +26,45 @@ a:hover{color:#666;text-decoration:underline;}
 
 #container{position:relative;float:left;width:100%;margin:0 auto;padding:0 0 30px;overflow:hidden;}
 #body, #foot{float:left;width:100%;margin:0 auto;padding:0;}
-#head1 .container, #head2 .container, #head3 .container, #body .container, #foot .container{width:960px;margin:0 auto;text-align:left;}
+#head1 .container, #head2 .container, #head3 .container, #body .container, #foot .container{width:auto;margin:0 auto;text-align:left;}
 #head2 .container, #head3 .container, #body .container{border-left:1px solid #c9c9c9;border-right:1px solid #c9c9c9;-webkit-box-shadow:0 0 10px rgba(50,50,50,.25);box-shadow:0 0 10px rgba(50,50,50,.25);}
 
 /* HEADER WITH TOP MENU ABOVE LOGO */
 #head1 .container{overflow:hidden;}
-* html #head1 .container, * html #head2, * html #head3, * html #body{background:none;} /* IE 6 hack */
+* html #head1 .container, * html #head2, * html #head3, * html #body{background:rgb(110, 190, 255);} /* IE 6 hack */
 
 /* MENU TOP 1 */
 #menu1 ul{float:right;margin:8px 3px 3px 0;list-style:none;}
 #menu1 li{float:left;padding:7px 0 0 20px;}
 #menu1 li a{padding-right:12px;background:url('img/menu3_sub.gif') no-repeat right 5px;font-weight:bold;text-decoration:none;color:#2e6a97;text-transform:lowercase;text-shadow:0 1px 1px #dbdbdb;}
-#menu1 li a:hover, #menu1 .selected a{text-decoration:underline;color:#c22463;}
+#menu1 li a:hover, #menu1 .selected a{text-decoration:none;color:rgb(110, 190, 255);}
 
 #menu1 li.lBasket{padding:0 8px 5px 20px;background:url('img/cart.png') no-repeat 20px 0;}
-#menu1 li.lBasket a{position:relative;padding:2px 0 0 18px;background:none;color:#c22463;}
-#menu1 li.lBasket a:hover{color:#2e6a97;}
-#menu1 li.lBasket span{display:block;color:#444;font-size:0.917em;font-family:sans-serif;}
+#menu1 li.lBasket a{position:relative;padding:2px 0 0 18px;background:none;color:black;}
+#menu1 li.lBasket a:hover{color:rgb(110, 190, 255);}
+#menu1 li.lBasket span{display:block;color:black;font-size:0.917em;font-family:sans-serif;}
 
 /* LOGO, HEADER BACKGROUND AND SLOGAN */
 #head2{clear:both;}
 #head2 .container{height:130px;background:#fff url('../admin/img/shopsec.jpg');  background-size: 110px 130px;  background-repeat: repeat-y; left bottom;border-top:1px solid #c9c9c9;}
-#logo{float:left; margin-left: 150px; padding:20px 10px 10px 30px;}
+#logo{float:left; margin: 0px; padding:20px 10px 10px 450px;}
 #logo #title{float:left; text-shadow:2px 2px 2px #d5d5d5;}
-#logo #title a{color:#666;font:bold 4em 'arial black';text-decoration:none;}
+#logo #title a{color:black;font:bold 4em 'arial black';text-decoration:none;}
 #logo #title a span{color:#c22463;background:inherit;}
 #logo #title a strong{color:#2e6996;background:inherit;}
-#logo #slogan{float:left;clear:left;padding:0 0 0 15px;background:inherit;color:#164a71;font-size:1em;text-shadow:2px 2px 2px #d5d5d5;}
+#logo #slogan{float:left;clear:left;padding:0 0 0 0px;background:inherit;color:rgb(110, 190, 255);font-size:1em;text-shadow:2px 2px 2px #d5d5d5;}
 * html #logo #slogan{width:100%;} /* IE 6 hack */
 
 /* HEADER WITH TOP MENU BELOW LOGO */
-#head3 .container{background:grey repeat-x;overflow:hidden;height:38px;border-color:yellow;border-top:1px solid #6d6c6c;border-bottom:1px solid #302f2f;}
+#head3 .container{background:white repeat-x;overflow:hidden;height:38px;border-color:rgb(110, 190, 255);border-top:1px solid rgb(110, 190, 255);border-bottom:1px solid rgb(110, 190, 255);}
 
 /* MENU TOP 2 */
 #menu2 ul{float:left;height:100%;margin:0;list-style:none;border-right:1px solid #6d6c6c;}
 #menu2 li{float:left;padding:0;border-right:1px solid #494848;border-left:1px solid #6d6c6c;}
 #menu2 li:hover, #menu2 .selected{border-right:1px solid #5d5c5d;border-left:1px solid #525151;}
 #menu2 li.l1, #menu2 li.l1:hover, #menu2 li.l1.selected{border-left:none;}
-#menu2 li a{float:left;height:43px;padding:11px 25px 0;color:#ffffff;font-size:1.17em;text-decoration:none;}
-#menu2 li a:hover, #menu2 .selected a{background:#817f81 repeat-x;color:#ffffff;text-decoration:underline;}
+#menu2 li a{float:left;height:43px;padding:11px 25px 0;color:black;font-size:1.17em;text-decoration:none;}
+#menu2 li a:hover, #menu2 .selected a{background:rgb(110, 190, 255) repeat-x;color:white;text-decoration:none;}
 
 /* BODY STYLES - LEFT AND RIGHT COLUMN */
 #body{clear:both;margin:0;}
