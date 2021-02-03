@@ -17,11 +17,11 @@ $config['orders_email'] = "c.vannimwegen@uu.nl";
 /*
 * Your website's title, description
 */
-$config['logo'] = "Shopsec";
-$config['title'] = "Shopsec";
-$config['description'] = "";
-$config['slogan'] = "Trust you can build on like buildings you can trust on";
-$config['foot_info'] = "Copyright Shopsec 2020 ©";
+$config['logo'] = "MaskIt";
+$config['title'] = "MaskIt";
+$config['description'] = "Dé nummer een verkoper van niet-medische mondkapjes";
+$config['slogan'] = "The only way to stay fit, is to mask it";
+$config['foot_info'] = "Copyright MaskIt 2020 ©";
 
 // Define all page ids where page tree for product list should be displayed
 $aDisplayPagesTreeInProductsList = Array( $config['page_search']=>true );

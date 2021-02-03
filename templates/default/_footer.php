@@ -10,8 +10,7 @@ if( !defined( 'CUSTOMER_PAGE' ) )
   <div id="foot"><?php // footer starts here ?>
     <div class="container">
       <div id="copy"><?php echo $config['foot_info']; ?></div>
-
-
+      <img width=150 src="https://www.fecopellets.nl/wp-content/uploads/2013/10/ideal-logo-transparant.png" id="idealfooter">
     </div>
   </div>
 </div>
