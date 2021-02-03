@@ -46,7 +46,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 
 /* LOGO, HEADER BACKGROUND AND SLOGAN */
 #head2{clear:both;}
-#head2 .container{height:130px;background:#fff url('../admin/img/shopsec.jpg');  background-size: 110px 130px;  background-repeat: repeat-y; left bottom;border-top:1px solid #c9c9c9;}
+#head2 .container{height:143px;background:#fff url('../admin/img/Logomask2.png');  background-size: 130px 143px;  background-repeat: repeat-y; left bottom;border-top:1px solid #c9c9c9;}
 #logo{float:left; margin: 0px; padding:20px 10px 10px 150px;}
 #logo #title{float:left; text-shadow:2px 2px 2px #d5d5d5;}
 #logo #title a{color:black;font:bold 4em 'arial black';text-decoration:none;}
@@ -165,8 +165,8 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 * html #content .subpagesList li{width:100%;} /* IE 6 hack */
 #content .subpagesList li .photo{float:left;margin:0 20px 5px 0;}
 #content .subpagesList li h2{padding-bottom:10px;text-shadow:2px 2px 3px #ddd;}
-#content .subpagesList li h2, #content .subpagesList li h2 a{color:#c22463;font-size:1.25em;font-weight:normal;background:none;}
-#content .subpagesList li h2 a:hover{color:#666;background:none;}
+#content .subpagesList li h2, #content .subpagesList li h2 a{color:rgb(110, 190, 255);font-size:1.25em;font-weight:normal;background:none;}
+#content .subpagesList li h2 a:hover{color:black;background:none;}
 #content .subpagesList li div.description{font-weight:normal;font-size:1em;line-height:1.4em;}
 #content .subpagesList li ul, #content .subpagesList li ol{float:left;width:100%;margin:5px 0 0 30px;padding:0;}
 #content .subpagesList li li{padding:0;border-bottom:0;background:none;-webkit-box-shadow:none;box-shadow:none;}
@@ -184,9 +184,9 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #options .print a{border-left:1px solid #e0e0e0;}
 
 .message{padding:50px 0;text-align:center;}
-.message h2{background:inherit;color:#c22463;font-weight:normal;font-size:2.4em;line-height:1.7em;}
-.message h2 a{color:#2e6a97;background:inherit;}
-.message h2 a:hover{color:#666;background:inherit;}
+.message h2{background:inherit;color:rgb(110, 190, 255);font-weight:normal;font-size:2.4em;line-height:1.7em;}
+.message h2 a{color:rgb(110, 190, 255);background:inherit;}
+.message h2 a:hover{color:black;background:inherit;}
 
 /* PRODUCTS LIST */
 #products{clear:both;float:left;width:100%;margin:10px 0;list-style:none;border-bottom:1px solid #e0e0e0;}
@@ -233,10 +233,10 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 /* PRODUCTS DETAILS */
 #product{float:right;display:block;width:650px;margin:0 20px;text-align:left;}
 * html #product{margin:0;} /* IE 6 hack */
-#product h1{padding:5px 0 5px;background:inherit;color:#2e6a97;font-size:2.25em;font-weight:normal;text-shadow:2px 2px 3px #ddd;}
-#product div.breadcrumb{margin:0 0 10px;padding:2px 0 7px;border-bottom:1px solid #bebebe;font-weight:normal;font-size:0.917em;}
+#product h1{padding:5px 0 5px;background:inherit;color:black;font-size:2.25em;font-weight:normal;text-shadow:2px 2px 3px rgb(220, 242, 255);}
+#product div.breadcrumb{margin:0 0 10px;padding:2px 0 7px;border-bottom:1px solid rgb(220, 242, 255);font-weight:normal;font-size:0.917em;}
 #product div.breadcrumb, #product div.breadcrumb a{background:inherit;color:#666;}
-#product div.breadcrumb a:hover{background-color:inherit;color:#c22463;}
+#product div.breadcrumb a:hover{background-color:inherit;color:rgb(110, 190, 255);}
 #product div.breadcrumb em{padding:0 5px;}
 
 #product #box{float:right;width:250px;margin:5px 0 10px 10px;padding:3px 0 10px;border-top:2px solid #d4d4d4;border-bottom:2px solid #d4d4d4;background:url('img/body.png');text-align:center;-webkit-box-shadow:0 0 15px rgba(48,47,47,.3);box-shadow:0 0 15px rgba(48,47,47,.3);}
