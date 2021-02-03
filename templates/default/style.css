@@ -49,10 +49,10 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #head2 .container{height:143px;background:#fff url('../admin/img/Logomask2.png');  background-size: 130px 143px;  background-repeat: repeat-y; left bottom;border-top:1px solid #c9c9c9;}
 #logo{float:left; margin: 0px; padding:20px 10px 10px 150px;}
 #logo #title{float:left; text-shadow:2px 2px 2px #d5d5d5;}
-#logo #title a{color:black;font:bold 4em 'arial black';text-decoration:none;}
-#logo #title a span{color:#c22463;background:inherit;}
-#logo #title a strong{color:#2e6996;background:inherit;}
-#logo #slogan{float:left;clear:left;padding:0 0 0 0px;background:inherit;color:rgb(110, 190, 255);font-size:1em;text-shadow:2px 2px 2px #d5d5d5;}
+#logo #title a{color:rgb(110, 190, 255);font:bold 4em 'arial black';text-decoration:none;}
+#logo #title a span{color:rgb(110, 190, 255);background:inherit;}
+#logo #title a strong{color:rgb(110, 190, 255);background:inherit;}
+#logo #slogan{float:left;clear:left;padding:0 0 0 0px;background:inherit;color:black;font-size:1em;text-shadow:2px 2px 2px #d5d5d5;}
 * html #logo #slogan{width:100%;} /* IE 6 hack */
 
 /* HEADER WITH TOP MENU BELOW LOGO */
@@ -98,8 +98,8 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #menu3 .sub1 a{display:block;width:100%;padding:2px 0;font-weight:normal;}
 
 /* RIGHT COLUMN STYLES */
-#content{float:left;width:690px;padding:20px 0 10px;text-align:center;background:url('img/body_bg.png') repeat-x left top;}
-* html #content{width:658px;} /* IE 6 hack */
+#content{float:left;width:900px;padding:20px 0 10px;text-align:center;background:url('img/body_bg.png') repeat-x left top;}
+* html #content{width:900px;} /* IE 6 hack */
 .order #content{width:100%;}
 #page{position:relative;width:94%;margin:0 auto;text-align:left;}
 * html #page{width:100%;} /* IE 6 hack */
@@ -124,7 +124,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 .tS{float:right;margin:17px 0 3px;}
 .tS div{display:inline;}
 .tS a{margin:0 4px;text-decoration:none;background:inherit;color:rgb(110, 190, 255);font-weight:bold;font-family:Arial;}
-.tS a:hover{color:#c22463;background:inherit;}
+.tS a:hover{color:black;background:inherit;}
 .tS0{font-size:0.917em;}
 .tS1{font-size:1.083em;}
 .tS2{font-size:1.333em;}
@@ -154,8 +154,8 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 /* FILES LIST STYLES */
 #filesList{width:100%;float:left;margin:15px 0 5px;list-style:none;vertical-align:middle;border-left:2px solid #e0e0e0;}
 #filesList li{width:100%;float:left;clear:left;margin:5px 0 5px 10px;padding-left:10px;}
-#filesList li a{color:#c22463;background:inherit;}
-#filesList li a:hover{color:#666;background:inherit;}
+#filesList li a{color:black;background:inherit;}
+#filesList li a:hover{color:rgb(110, 190, 255);background:inherit;}
 #filesList img{margin:0 8px 0 0;vertical-align:middle;}
 #filesList em{padding-left:2px;}
 
