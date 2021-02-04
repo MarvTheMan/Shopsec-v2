@@ -14,7 +14,7 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
   if( isset( $aData['sPagesTree'] ) )
     echo '<div class="breadcrumb">'.$aData['sPagesTree'].'</div>'; // displaying page tree (breadcrumb)
   
-  echo $oFile->listImagesByTypes( $aData['iPage'], 1 ); // displaying images with type: left
+  echo $oFile->listImagesByTypes( $aData['iPage'], 2 ); // displaying images with type: left
   
   echo $oFile->listImagesByTypes( $aData['iPage'], 2 ); // displaying images with type: right
   
