@@ -5,15 +5,15 @@ body,table{color: black;font-size:0.75em;font-family:Verdana, Arial, sans-serif;
 body{padding:0; text-align:center;}
 
 .input, select, textarea{padding:2px;border-width:1px;border-style:solid;border-color:#6c6c6c #cccccc #cccccc #6c6c6c;font-size:1em;font-family:Verdana;text-shadow:1px 1px #e0e0e0;}
-.input.warning-required, select.warning-required, textarea.warning-required{border-color:#ac0000 #c78688 #c78688 #ac0000;background:#fbefef;}
+.input.warning-required, select.warning-required, textarea.warning-required{border-color:red #c78688 #c78688 #ac0000;background:#fbefef;}
 .input:focus, select:focus, .textarea:focus{text-shadow:none;}
 .submit{padding:5px 1px;border-width:1px;border-style:solid;border-color:#9d9d9d #3f3f3f #3f3f3f #9d9d9d;background:white;color:black;font-weight:bold;font-size:1em;font-family:Verdana;}
 .submit:hover{background:rgb(110, 190, 255);cursor:pointer;}
 * html .submit{padding:3px 1px;} /* IE 6 hack */
 * html .input{height:21px;} /* IE 6 hack */
-.form label{font-size:1em;color:#2e6a97;font-weight:bold;}
+.form label{font-size:1em;color:rgb(110, 190, 255);font-weight:bold;}
 .form legend{display:none;}
-.form label span{padding-left:10px;color:#949494;font-weight:normal;text-shadow:none;}
+.form label span{padding-left:10px;color:black;font-weight:normal;text-shadow:none;}
 .hide{display:none;}
 
 a{color:black;text-decoration:none;}
@@ -177,7 +177,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 /* OPTIONS LINK */
 #options{position: bottom;clear:both;float:right;width:100%;margin:10px 10px;color:#666;font-size:1em;text-align:right;}
 *:first-child+html #options{width:94%;} /* IE 7 hack */
-* html #options{width:94%;} /* IE 6 hack */
+* html #options{width:96%;} /* IE 6 hack */
 #options a{padding:0 10px 0;color:black;background:inherit;}
 #options a:hover{color:rgb(110, 190, 255);background:inherit;}
 #options .back, #options .print{float:right;}
@@ -191,7 +191,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 /* PRODUCTS LIST */
 #products{clear:both;float:left;width:100%;margin:10px 0;list-style:none;border-bottom:1px solid #e0e0e0;}
 #products ul.list{float:left;width:100%;list-style:none;}
-#products .list li{float:left;width:200px;margin-left:20px;padding:20px 0;border-top:1px solid #e0e0e0;text-align:center;}
+#products .list li{float:left;width:300px;margin-left:20px;padding:20px 0;border-top:1px solid #e0e0e0;text-align:center;}
 /* standard products list (not columns) example:
 #products .list li{position:relative;clear:both;width:96%;margin:5px 0;padding:5px 2% 10px;text-align:left;} */
 #products .list li li{float:none;width:auto;margin-left:0px;padding:0;border-top:0px;text-align:left;}
@@ -199,23 +199,23 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #products li .photo{margin-top:4px;font-size:0px;line-height:0px;}
 #products li h2{padding:5px 0 5px;font-weight:bold;font-size:1.083em;text-shadow:2px 2px 3px #ddd;}
 #products li h2 a{text-decoration:none;}
-#products li h2 a:hover{text-decoration:underline;}
+#products li h2 a:hover{text-decoration:none;}
 #products li h3{padding-bottom:5px;font-weight:normal;font-size:0.917em;}
-#products li h3, #products li h3 a{color:#666;}
-#products li h3 a:hover{color:#c22463;}
+#products li h3, #products li h3 a{color:black;}
+#products li h3 a:hover{color:rgb(110, 190, 255);}
 #products li h3 em{padding:0 5px;}
 #products li div.description{margin:10px 0 0;text-align:justify;}
-#products li div.description a{color:#666;}
-#products li div.description a:hover{color:#c22463;}
+#products li div.description a{color:black;}
+#products li div.description a:hover{color:rgb(110, 190, 255);}
 #products li div.description ul, #products li div.description ol{margin:5px 0 0 25px;padding:0;}
 #products li .price, #products li .noPrice{margin:5px 0 5px 0;background-color:inherit;color:black;font-weight:bold;text-decoration:none;text-shadow:2px 2px 3px #ddd;}
 #products li .price em{padding:0 6px 0 0;background:inherit;color:black;font-style:normal;}
 #products li .price strong{font-size:1.167em;}
 #products li .noPrice strong{font-size:1.083em;}
-#products li .price span{padding-left:4px;font-size:1.083em;color:#666;}
+#products li .price span{padding-left:4px;font-size:1.083em;color:black;}
 #products li .basket{width:150px; margin:10px auto 0;padding-left:3px;font-size:0.817em;font-weight:bold;}
-#products li .basket a{display:block;padding:5px 32px 8px 7px;color:#fff;background:url('img/button_cart_list.png') no-repeat right bottom;text-decoration:none;text-shadow:0px 1px #630d2f;}
-#products li .basket a:hover{text-shadow:0px 0px 5px #e9c0d1;}
+#products li .basket a{display:block;padding:8px 0px 8px 0px;color:black;background:url('img/koopknopwit2.png') no-repeat right bottom;text-decoration:none;;width:100%;height:100%}
+#products li .basket a:hover{display:block;padding:8px 0px 8px 0px;color:#fff;background:url('img/koopknop.png') no-repeat right bottom;text-decoration:none;width:100%;height:100%}}
 
 #products .pages{float:right;width:100%;margin:0;padding:9px 0;border:0;background:none;text-align:right;font-size:1em;}
 #products .pages li{margin:0;padding:0 2px;border:0;background:none;}
@@ -231,7 +231,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #products .sort li a{font-weight:normal;}
 
 /* PRODUCTS DETAILS */
-#product{float:right;display:block;width:650px;margin:0 20px;text-align:left;}
+#product{float:left;display:block;width:800px;margin:0 50px;text-align:left;}
 * html #product{margin:0;} /* IE 6 hack */
 #product h1{padding:5px 0 5px;background:inherit;color:black;font-size:2.25em;font-weight:normal;text-shadow:2px 2px 3px rgb(220, 242, 255);}
 #product div.breadcrumb{margin:0 0 10px;padding:2px 0 7px;border-bottom:1px solid rgb(220, 242, 255);font-weight:normal;font-size:0.917em;}
@@ -241,14 +241,14 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 
 #product #box{float:right;width:250px;margin:5px 0 10px 10px;padding:3px 0 10px;border-top:2px solid #d4d4d4;border-bottom:2px solid #d4d4d4;background:url('img/body.png');text-align:center;-webkit-box-shadow:0 0 15px rgba(48,47,47,.3);box-shadow:0 0 15px rgba(48,47,47,.3);}
 #product #box form{font-weight:bold;}
-#product #box #price, #product #box #noPrice{padding:7px 0;border-bottom:1px solid #bebebe;background-color:transparent;color:#666;font-size:1.417em;text-align:center;text-shadow:2px 2px 3px #ddd;}
-#product #box #noPrice{color:#c22463;}
+#product #box #price, #product #box #noPrice{padding:7px 0;border-bottom:1px solid #bebebe;background-color:transparent;color:black;font-size:1.417em;text-align:center;text-shadow:2px 2px 3px #ddd;}
+#product #box #noPrice{color:rgb(110, 190, 255);}
 #product #box #price em{font-style:normal;}
-#product #box #price strong{padding:0 6px;font-size:1.176em;color:#c22463;font-weight:bold;}
-#product #box #available{padding:8px 2px 0;background-color:transparent;color:#666;font-weight:bold;font-size:0.9em;}
+#product #box #price strong{padding:0 6px;font-size:1.176em;color:rgb(110, 190, 255);font-weight:bold;}
+#product #box #available{padding:8px 2px 0;background-color:transparent;color:black;font-weight:bold;font-size:0.9em;}
 #product #box #addBasket{padding:10px 0 5px;}
-#product #box #addBasket .submit{width:176px;padding:5px 25px 8px 5px;border:0;background:url('img/button_cart.png') no-repeat right bottom;background-color:inherit;color:#fff;font-size:1.1em;font-weight:bold;text-shadow:1px 1px #630d2f;}
-#product #box #addBasket .submit:hover{text-shadow:0px 0px 5px #e9c0d1;}
+#product #box #addBasket .submit{width:176px;padding:5px 25px 8px 8px;border:0;background:url('img/koopknopwit.png') no-repeat right bottom;background-color:inherit;color:black;font-size:1.1em;font-weight:bold;width:100%;height:100%}
+#product #box #addBasket .submit:hover{width:176px;padding:5px 0px 0px px;border:0;background:url('img/koopknop1.png') no-repeat right bottom;background-color:inherit;color:black;font-size:1.1em;font-weight:bold;width:100%;height:100%}
 
 #product div.content{clear:left;padding:10px 0 10px;font-size:1.083em;line-height:1.5em;}
 #product div.content ul, #product div.content ol{margin:5px 0 0 30px;padding:0;}
@@ -256,10 +256,10 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #product div.content p{padding-bottom:10px;}
 
 /* BASKET AND ORDER */
-#orderedProducts table{width:100%;margin:0;border-bottom:2px solid #e0e0e0;font-size:1em;color:#c22463;text-shadow:1px 1px #e0e0e0;}
+#orderedProducts table{width:100%;margin:0;border-bottom:2px solid #e0e0e0;font-size:1em;color:black;}
 #orderedProducts td, #orderedProducts th{padding:6px 7px;}
 #orderedProducts thead .price, #orderedProducts thead .quantity, #orderedProducts thead .summary{text-align:right;}
-#orderedProducts thead td{padding-bottom:11px;background:#2e6896;color:#fff;text-shadow:1px 1px #17344b;}
+#orderedProducts thead td{padding-bottom:11px;background:rgb(110, 190, 255);color:white;}
 #orderedProducts thead em{padding:0 4px 0 0;font-style:normal;}
 #orderedProducts tbody th, #orderedProducts tbody td{border-top:2px solid #fff;background:#f0f6fa url('img/body.png');border-bottom:1px solid #e0e0e0;}
 #orderedProducts tbody th{text-align:left;}
@@ -267,55 +267,55 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 #orderedProducts tbody .price, #orderedProducts tbody .summary{font-weight:bold;text-align:right;}
 #orderedProducts tbody .quantity, #orderedProducts tbody .quantity input{text-align:right;}
 #orderedProducts tbody .quantity label{display:none;}
-#orderedProducts tbody a:hover{background:inherit;color:#666;}
+#orderedProducts tbody a:hover{background:inherit;color:rgb(110, 190, 255);}
 #orderedProducts tfoot{background:url('img/body.png');text-align:right;}
 #orderedProducts tfoot .summaryProducts, #orderedProducts tfoot .summaryProducts th, #orderedProducts tfoot .summaryShippingPayment, #orderedProducts tfoot .summaryOrder{text-align:right;}
-#orderedProducts tfoot .nextStep .submit{background:#c22463;text-shadow:1px 1px #630d2f;}
-#orderedProducts tfoot .nextStep .submit:hover{background:#154a72;text-shadow:1px 1px #17344b;}
+#orderedProducts tfoot .nextStep .submit{background:rgb(110, 190, 255);color:white;}
+#orderedProducts tfoot .nextStep .submit:hover{background:white;color:black;}
 
 #basket #orderedProducts table{margin:10px 0 0;}
 #basket .info{padding:10px 0;text-align:left;}
-#basket #recount{background:#fff;border-bottom:2px solid #e0e0e0;}
+#basket #recount{background:white;border-bottom:2px solid #e0e0e0;}
 #basket #recount td{border-bottom:1px solid #e0e0e0;text-align:right;}
 #basket #recount .submit{padding:2px 3px;}
-#basket #recount .submit:hover, #basket .buttons #continue .submit:hover{background:#c22463;}
+#basket #recount .submit:hover, #basket .buttons #continue .submit:hover{background:rgb(110, 190, 255);}
 #basket .summaryProducts{font-size:1.36em;font-weight:bold;}
 #basket .summaryProducts #summary{font-weight:bold;}
 #basket .del{padding:0 5px 0 10px;}
-#basket .del a{background:inherit;color:#666;}
-#basket .del a:hover{background:inherit;color:#c22463;}
+#basket .del a{background:inherit;color:black;}
+#basket .del a:hover{background:inherit;color:rgb(110, 190, 255);color:white;;}
 #basket .buttons #continue{text-align:left;}
 #basket .buttons #continue .submit{margin-right:5px;padding:3px 5px;}
 #basket #pageDescription{margin-top:10px;}
 #basket legend{display:none;} 
 
 #basket #save{padding:7px;}
-#basket #save .submit{margin-right:5px;padding:4px 9px;background:#f2f2f2;color:#666;border:2px solid #e0e0e0;font-weight:normal;text-shadow:none;}
-#basket #save .submit:hover{background:#154a72;color:#fff;}
+#basket #save .submit{margin-right:5px;padding:4px 9px;background:#f2f2f2;color:black;border:2px solid #e0e0e0;font-weight:normal;text-shadow:none;}
+#basket #save .submit:hover{background:rgb(110, 190, 255);color:#fff;}
 
-#order legend{display:block;padding:20px 0 10px;border:0;font-size:1.2em;font-weight:bold;color:#2e6a97;text-shadow:1px 1px 3px #e0e0e0;}
+#order legend{display:block;padding:20px 0 10px;border:0;font-size:1.2em;font-weight:bold;color:rgb(110, 190, 255);color:black;}
 #order #personalData{padding:12px 3%;border-top:2px solid #e0e0e0;border-bottom:2px solid #e0e0e0;background:url('img/body.png');overflow:hidden;}
 #order #personalData #setBasic, #order #personalData #setExtend{float:left;width:50%;}
-#order #personalData label{display:block;padding:2px 0;font-weight:bold;color:#2e6a97;text-shadow:1px 1px #e0e0e0;}
+#order #personalData label{display:block;padding:2px 0;font-weight:bold;color:black;}
 #order #personalData .input, #order #personalData #oComment{width:90%;margin:0 0 5px;}
 #order #personalData #oComment{height:125px;}
 
 #shippingAndPayments div{padding:11px 3%;border-top:2px solid #e0e0e0;border-bottom:2px solid #e0e0e0;background:url('img/body.png');}
 
-#order tfoot td, #orderPrint tfoot td{color:#c22463;}
+#order tfoot td, #orderPrint tfoot td{color:black;}
 #order .summaryProducts, #order .summaryShippingPayment, #orderPrint .summaryShippingPayment{font-size:1.182em;}
 #order .summaryProducts th, #order .summaryShippingPayment th, #orderPrint .summaryShippingPayment th{font-weight:normal;text-align:right;}
-#order .summaryOrder, #orderPrint .summaryOrder{color:#666;font-size:1.36em;font-weight:bold;}
+#order .summaryOrder, #orderPrint .summaryOrder{color:black;font-size:1.36em;font-weight:bold;}
 #order .summaryOrder th, #orderPrint .summaryOrder th{text-align:right;}
 #order .summaryOrder th, #order .summaryOrder td{border-top:1px solid #e0e0e0;}
-#order #rulesAccept th{color:#666;font-weight:bold;text-align:right;}
+#order #rulesAccept th{color:black;font-weight:bold;text-align:right;}
 #order #rulesAccept th, #order #nextStep th{border:0;text-align:right;}
 *:first-child+html .nextStep .submit, *:first-child+html #basket #continue .submit{padding:2px 0px;} /* IE 7 hack */
 
 /* ORDER SUMMARY/PRINT PAGE */
-#orderPrint #pageDescription{padding:10px 8px 20px;text-align:center;background:inherit;color:#c22463;font-weight:normal;font-size:1.5em;}
+#orderPrint #pageDescription{padding:10px 8px 20px;text-align:center;background:inherit;color:black;font-weight:normal;font-size:1.5em;}
 #orderPrint #pageDescription p{padding:5px 0;}
-#orderPrint .legend{clear:both;padding:20px 0 10px;background:inherit;color:#2e6a97;font-size:1.2em;font-weight:bold;}
+#orderPrint .legend{clear:both;padding:20px 0 10px;background:inherit;color:rgb(110, 190, 255);color:white;;font-size:1.2em;font-weight:bold;}
 #orderPrint dl{float:left;display:block;width:100%;margin:0;padding:5px 0;border-top:2px solid #e0e0e0;border-bottom:2px solid #e0e0e0;background:#fff url('img/body.png');}
 #orderPrint dt, #orderPrint dd{float:left;display:inline-block;width:40%;margin:0;padding:3px 0;}
 #orderPrint dt{clear:left;text-align:right;}
