@@ -35,7 +35,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 
 /* MENU TOP 1 */
 #menu1 ul{float:right;margin:8px 3px 3px 0;list-style:none;object-fit: fill;}
-#menu1 li{float:none:7px 0 0 20px;object-fit: fill;}
+#menu1 li{float:none:7px 0 0 20px; object-fit: fill;}
 #menu1 li a{padding-right:12px;background:url('img/menu3_sub.gif') no-repeat right 5px;font-weight:bold;text-decoration:none;color:#2e6a97;text-transform:lowercase;text-shadow:0 1px 1px #dbdbdb;}
 #menu1 li a:hover, #menu1 .selected a{text-decoration:none;color:rgb(110, 190, 255);}
 
@@ -47,7 +47,7 @@ a:hover{color:rgb(110, 190, 255);text-decoration:none;}
 /* LOGO, HEADER BACKGROUND AND SLOGAN */
 #head2{clear:both;}
 #head2 .container{height:143px;background:#fff url('../admin/img/Logomask2.png');  background-size: 130px 143px;  background-repeat: repeat-y; left bottom;border-top:1px solid #c9c9c9;}
-#logo{float:left; margin-left:15px; padding:20px 10px 10px 150px;}
+#logo{margin-left:15px; padding:20px 10px 10px 150px;}
 #logo #title{float:left; text-shadow:2px 2px 2px #d5d5d5;}
 #logo #title a{color:rgb(110, 190, 255);font:bold 4em 'arial black';text-decoration:none;}
 #logo #title a span{color:rgb(110, 190, 255);background:inherit;}
